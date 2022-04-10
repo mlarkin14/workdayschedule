@@ -27,7 +27,7 @@ if (workEvents) {
 /* Current Day */
 $("#currentDay").text(today);
 
-/* Create rows */
+/* Rows */
 planWorkday.forEach(function(timeBlock, index) {
     var timeLabel = timeBlock.time;
     var blockColor = colorRow(timeLabel);
@@ -46,7 +46,7 @@ planWorkday.forEach(function(timeBlock, index) {
     $(".container").append(row);
 });
 
-/* Color rows based on current time */
+/* Color rows based on time */
 function colorRow(time) {
     var planNow = moment(now, "H A");
     var planEntry = moment(time, "H A");
