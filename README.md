@@ -1,8 +1,7 @@
 # Work Day Scheduler
 <br>
-*Link to Work Day Scheduler*
 <br>
-[Work Day Scheduler](https://mlarkin14.github.io/workdayschedule/)
+(https://mlarkin14.github.io/workdayschedule/)
 <br>
 <br>
 # Screenshot
